@@ -1,5 +1,5 @@
 
-name: IBM Cloud Foundry - V2Ray
+name: IBM Cloud Foundry
 
 env:
   IBM_CF_API: https://api.eu-gb.cf.cloud.ibm.com
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   repository_dispatch:
   schedule:
-    - cron: 0 7 * * 6
+    - cron: 0 7 * * 7
 
 jobs:
   deploy:
